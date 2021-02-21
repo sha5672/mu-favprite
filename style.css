@@ -1,0 +1,122 @@
+body {
+
+     text-align: center;
+     background-image: linear-gradient(to bottom left, blue, purple)
+}
+
+h1 {
+     font-size: 30px;
+     font-family: Hanalei;
+     text-shadow: 0px 0px;
+     transition-duration: 0.8s;
+}
+
+hr {
+     color: red;
+     background-color: blue;
+     border-color: aqua;
+     column-rule-color: aqua;
+
+
+}
+
+h1:hover {
+     color: aqua;
+     font-size: 500%
+}
+
+img {
+     border-radius: 100%;
+     transition-duration: 0.8s border:10px solid #AAAAAA;
+     transition: transform .9s;
+
+
+}
+
+.p1 {
+     padding: 20px;
+     text-align: center;
+}
+
+.menu {
+     list-style: none;
+     font-family: fantasy;
+     position: fixed top: 0px;
+     right: 30px;
+     cursor: grabbing;
+     position: fixed;
+
+     float: left;
+     left: 20;
+
+
+}
+
+li {
+     display: inline;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: red
+}
+
+.link:hover {
+     background-color: orange;
+     font-size: 50px;
+     transform: skewY(20deg);
+     font-style: normal
+}
+
+.link {
+     border-radius: 70%;
+     transition-duration: 0.8s;
+     position
+}
+
+iframe {
+     width: 1300;
+     height: 1300
+}
+
+button {
+     outline-color: aqua;
+     border: 50px;
+     height: 100;
+
+     width: 100;
+     border-radius: 20%;
+     outline-color: aqua;
+     border-color: aqua;
+     cursor: grabbing;
+     transition-duration: 0.8s;
+
+
+
+
+}
+
+button:hover {
+     background-color: crimson;
+     height: 150px;
+     width: 150px;
+     transform: rotateY(360deg);
+
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+img:hover {
+     transform: scale(1.2);
+   
+}
+
+a {
+     color: crimson;
+}
+
+#i1 {
+     height: 75%;
+
+
+}
